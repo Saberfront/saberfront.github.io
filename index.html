@@ -34,18 +34,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </section>
 
     <section class="main-content">
-      <div id="gConnect" class="button">
-      <button class="g-signin"
-          data-scope="email"
-          data-clientid="394964711642-8dkhv638dqi2vq84q26rckeh1ojm88f7.apps.googleusercontent.com"
-          data-callback="onSignInCallback"
-          data-theme="dark"
-          data-cookiepolicy="single_host_origin">
-      </button>
-      </div>
-       <div id="response" class="hide">
-        <textarea id="responseContainer" style="width:100%; height:150px"></textarea>
-      </div>
+      <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+    <script>
+      function onSignIn(googleUser) {
+        // Useful data for your client-side scripts:
+        var profile = googleUser.getBasicProfile();
+        console.log("ID: " + profile.getId()); // Don't send this directly to your server!
+        console.log("Name: " + profile.getName());
+        console.log("Image URL: " + profile.getImageUrl());
+        console.log("Email: " + profile.getEmail());
+
+        // The ID token you need to pass to your backend:
+        var id_token = googleUser.getAuthResponse().id_token;
+        console.log("ID Token: " + id_token);
+      };
+    </script>
       <h1>
 <a id="star-wars-saberfront" class="anchor" href="#star-wars-saberfront" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Star Wars Saberfront</h1>
 <ul id="menu">
@@ -68,35 +71,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     </section>
 
-  <script>
-  /**
-   * Handler for the signin callback triggered after the user selects an account.
-   */
-  function onSignInCallback(resp) {
-    gapi.client.load('plus', 'v1', apiClientLoaded);
-  }
 
-  /**
-   * Sets up an API call after the Google API client loads.
-   */
-  function apiClientLoaded() {
-    gapi.client.plus.people.get({userId: 'me'}).execute(handleEmailResponse);
-  }
-
-  /**
-   * Response callback for when the API client receives a response.
-   *
-   * @param resp The API response object with the user email and profile information.
-   */
-  function handleEmailResponse(resp) {
-    var primaryEmail;
-    for (var i=0; i < resp.emails.length; i++) {
-      if (resp.emails[i].type === 'account') primaryEmail = resp.emails[i].value;
-    }
-    document.getElementById('responseContainer').value = 'Primary email: ' +
-        primaryEmail + '\n\nFull Response:\n' + JSON.stringify(resp);
-  }
-
-  </script>
   </body>
 </html>
