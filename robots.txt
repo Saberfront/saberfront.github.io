@@ -1,4 +1,4 @@
 
-User-Agent: Googlebot
+User-agent: Googlebot
 Disallow: http://starwarssaberfront.github.io/Skillbase/lib/
 
