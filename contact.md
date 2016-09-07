@@ -1,5 +1,5 @@
 ---
-layout: oage
+layout: page
 title: Contact The Developers
 ---
 
