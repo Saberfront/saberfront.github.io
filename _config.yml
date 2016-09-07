@@ -18,3 +18,4 @@ github_username:  Saberfront
 
 # Build settings
 markdown: kramdown
+lsi: true
