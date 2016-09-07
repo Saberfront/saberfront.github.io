@@ -9,3 +9,4 @@ The original loot system has many flaws. However, by September 10th, a new face 
 - Legendary
 - Rare
 - Uncommon
+- Common
