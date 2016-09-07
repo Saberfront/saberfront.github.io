@@ -20,4 +20,5 @@ markdown: kramdown
 lsi: true
 
 collections:
-   systems
+   systems:
+     output: true
