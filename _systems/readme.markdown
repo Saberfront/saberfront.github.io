@@ -1,5 +1,5 @@
 
 ---
-collection: systems
+layout: post
 
 ---
