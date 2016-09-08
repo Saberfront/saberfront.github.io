@@ -16,6 +16,6 @@ The original loot system has many flaws. However, by September 10th, a new face 
 
 The System is already implement in a test place right now. Here's the latest on the Item acquisition system:
 
-- [x] Basic loot system
-- [ ] Chest system
-- [ ] Pawn Value System
+- Basic loot system: DONE
+- Chest system: YET TO BE FINISHED
+- Pawn Value System: YET TO BE FINISHED
