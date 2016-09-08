@@ -19,6 +19,7 @@ gems: [jekyll-assets]
 markdown: kramdown
 monthly_archive:
   layout: default
+  path: "archive"
 collections:
    systems:
      output: true
