@@ -14,7 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://saberfront.github.io" # the base hostname & protocol for your site
 twitter_username: SaberfrontDevs
 github_username:  Saberfront
-gems: [jekyll-assets]
+gems: [jekyll-assets,jekyll-archives]
 # Build settings
 markdown: kramdown
 monthly_archive:
@@ -23,3 +23,13 @@ monthly_archive:
 collections:
    systems:
      output: true
+     
+jekyll-archives:
+  enabled: []
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
