@@ -11,10 +11,12 @@ The original loot system has many flaws. However, by September 10th, a new face 
   - usually in the form of apowerful blaster or just about any lightsaber type
   - chance must be 0.25 or below to get this and the other three weapons
 - Rare
+   - Not the rarest thing you'll find, but it is rarer than most items
+   - usually a rare find such as junk items, medkits, and detonator packages.
 - Uncommon
 - Common
 
-The System is already implement in a test place right now. Here's the latest on the Item acquisition system:
+The Loot System is already implement in a test place right now. Here's the latest on the Item acquisition system:
 
 - Basic loot system: DONE
 - Chest system: YET TO BE FINISHED
