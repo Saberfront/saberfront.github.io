@@ -14,6 +14,8 @@ The original loot system has many flaws. However, by September 10th, a new face 
    - Not the rarest thing you'll find, but it is rarer than most items
    - usually a rare find such as junk items, medkits, and detonator packages.
 - Uncommon
+   - Rarer than the common item, it is not rare to find this item, but it is unusual to obtain one
+   - Usually basic weapons such as the E-5 fall into this category
 - Common
 
 The Loot System is already implement in a test place right now. Here's the latest on the Item acquisition system:
