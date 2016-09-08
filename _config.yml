@@ -17,7 +17,6 @@ github_username:  Saberfront
 gems: [jekyll-assets]
 # Build settings
 markdown: kramdown
-lsi: true
 
 collections:
    systems:
