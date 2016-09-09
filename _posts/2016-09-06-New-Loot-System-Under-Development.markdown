@@ -18,8 +18,10 @@ The original loot system has many flaws. However, by September 10th, a new face 
    - Usually basic weapons such as the E-5 fall into this category
 - Common
 
-The Loot System is already implement in a test place right now. Here's the latest on the Item acquisition system:
+The chest system will do the same actions as the loot system, but without killing mobs.
+
+The Loot System and Chest system are already implemented in the game as of right now. Here's the latest on the Item acquisition system:
 
 - Basic loot system: DONE
-- Chest system: YET TO BE FINISHED
+- Chest system:DONE
 - Pawn Value System: YET TO BE FINISHED
