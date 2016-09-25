@@ -8,3 +8,5 @@ The Mob Starfighters are currently under development. These mobs will feature a 
 - blaster bolts
 - rockets 
 - missiles
+
+The Mob Starfighters will also feature a way to gain experience points for destroying the Mob that is positioned painstakingly inside the Starfighter with a script.
