@@ -22,7 +22,7 @@ layout: default
 <ul>
 {% for collection in site.collections %}
 <li>
-  <h2><a href="{{ collection.path }} "> {{ collection.title }}</a></h2>
+  <h2><a href="{{ collection.relative_directory }} "> {{ collection.title }}</a></h2>
 </li>
 {% endfor %}
 
