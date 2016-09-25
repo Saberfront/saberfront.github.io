@@ -24,6 +24,7 @@ monthly_archive:
   path: "archive"
 collections:
    systems:
+     title: Systems of Saberfront
      output: true
      
 jekyll-archives:
