@@ -9,3 +9,4 @@ almost all of these updates use the newest API yet: SaberfrontDB
 What is it?
 -----------
 
+SaberfrontDB is a service that powers the Force power, the starter pack timer, s such and ToolStoreService,
