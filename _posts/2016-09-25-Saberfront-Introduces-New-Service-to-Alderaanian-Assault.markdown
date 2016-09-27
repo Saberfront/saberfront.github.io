@@ -9,4 +9,4 @@ almost all of these updates use the newest API yet: SaberfrontDB
 What is it?
 -----------
 
-SaberfrontDB is a service that powers the Force power, the starter pack timer, s such and ToolStoreService,
+SaberfrontDB is a service that powers the Force power, the starter pack timer, and ToolStoreService. ToolStoreService was initially using ROBLOX's data stores. However, the data stores proved ineffective, and they were abandoned as a result.
