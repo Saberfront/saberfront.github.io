@@ -14,4 +14,5 @@ SaberfrontDB is a service that powers the Force power, the starter pack timer, a
 Links:
 -------------
 [Suggestions Form](https://docs.google.com/forms/d/e/1FAIpQLSesxmtLuz8qQkS3PKHp7EnR9qgTTrAAfcmfLyWO9reckaA2Tw/viewform)
+
 [Blog](https://Saberfront.blogspot.com)
